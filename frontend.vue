@@ -14,13 +14,8 @@ url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=s
 <script type="module" src="/src/main.ts"></script>
 </body>
 </html>
-
-
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
+@import
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 body {
 font-family: 'Poppins', sans-serif;
@@ -28,7 +23,6 @@ background-color: #fff;
 color: #333;
 overflow-x: hidden;
 }
-
 p {
 line-height: 1.6;
 font-weight: 300;
