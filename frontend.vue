@@ -1,3 +1,6 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,30 +14,36 @@
 <script type="module" src="/src/main.ts"></script>
 </body>
 </html>
-@import
-url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
 body {
 font-family: 'Poppins', sans-serif;
 background-color: #fff;
 color: #333;
 overflow-x: hidden;
 }
-h1, h2, h3 {
-font-weight: 600;
-margin-bottom: 1rem;
-}
+
 p {
 line-height: 1.6;
 font-weight: 300;
 }
+
+h1, h2, h3 {
+font-weight: 600;
+margin-bottom: 1rem;
+}
+
 button {
 font-family: inherit;
 }
+
+
 import { createApp } from 'vue'
 import App from './App.vue'
 import './assets/main.css'
